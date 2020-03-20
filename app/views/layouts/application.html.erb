@@ -12,59 +12,12 @@
   <body class="nav-md footer_fixed">
   <div class="container body center">
     <div class="main_container">
-      <div class="col-md-3 left_col">
-        <div class="login-box-body">
-          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#login-section"><b>Login</b></a></li>
-            <li><a data-toggle="tab" href="#signup-section"><b>Signup</b></a></li>
-          </ul>
-          <br>
-          <div class="tab-content parent-center-form">
-            <div id="login-section" class="tab-pane fade in active">
-              <%= form_for :user, url: '' do |f|%>
-                <div class="form-group">
-                  <%= f.label :email %>
-                  <%= f.text_field :email, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.label :password %>
-                  <%= f.password_field :password, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.submit "Log In", class: 'btn btn-secondry' %>
-                </div>
-              <% end %>
-            </div>
-            <div id="signup-section" class="tab-pane fade">
-              <%= form_for :user, url: '' do |f| %>
-                <div class="form-group">
-                  <%= f.label :first_name %>
-                  <%= f.text_field :first_name, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.label :last_name %>
-                  <%= f.text_field :last_name, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.label :email %>
-                  <%= f.text_field :email, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.label :password %>
-                  <%= f.password_field :password, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.label :image_url %>
-                  <%= f.text_field :image_url, class: 'form-control' %>
-                </div>
-                <div class="form-group">
-                  <%= f.submit "Sign Up", class: 'btn btn-secondry' %>
-                </div>
-              <% end %>
-            </div>
-          </div>
-        </div>
+      <div class="container">
+        <% flash.each do |key, value| %>
+          <div class="alert alert-<%= key %>"><%= value %></div>
+        <% end %>
       </div>
+      <%= yield %>
     </div>
   </div>
   <!-- <%= javascript_include_tag 'application' %> -->

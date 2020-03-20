@@ -1,0 +1,83 @@
+<div class="menu_section">
+    <h3>General</h3>
+
+    <ul class="nav side-menu">
+        <li class="">
+            <a>
+                <i class="fa fa-home"></i> Master Data
+                <span class="fa fa-chevron-down"></span>
+            </a>
+            <ul class="nav child_menu">
+                <li>
+                    <%= link_to 'Areas', admin_areas_path %>
+                </li>
+                <li>
+                    <%= link_to 'Zones', admin_zones_path %>
+                </li>
+                <li>
+                    <%= link_to 'Cities', admin_cities_path %>
+                </li>
+                <li>
+                    <%= link_to 'Routes', admin_routes_path %>
+                </li>
+                <li>
+                    <%= link_to 'Companies', admin_companies_path %>
+                </li>
+                
+                <li>
+                    <%= link_to 'Stations', admin_stations_path %>
+                </li>
+
+                <li>
+                    <%= link_to 'Vehicles', admin_vehicles_path %>
+                </li>
+                
+                <li>
+                    <%= link_to 'Users', admin_users_path %>
+                </li>
+                
+                <li>
+                    <%= link_to 'Pickup Requests', admin_pickup_requests_path %>
+                </li>
+                <li>
+                    <%= link_to 'Tracking Orders', admin_tracking_orders_path %>
+                </li>
+            </ul>
+        </li>
+        
+        <li class="">
+            <a>
+                <i class="fa fa-home"></i> Stations
+                <span class="fa fa-chevron-down"></span>
+            </a>
+            
+            <ul class="nav child_menu">
+                <% @menu_stations.each_with_index do |station , admin_key| %>
+                    <li><%= link_to 'Manifests', admin_station_manifests_path(station) %></li>
+                    <li>
+                        <%= link_to station.name, admin_station_pickup_requests_path(station) %>
+                    <li><a><%= station.name + " Data" %><span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" >
+                            <li class="sub_menu"><%= link_to "Pickups", admin_station_pickup_requests_path(station) %>
+                            </li>
+                            <li class="sub_menu"><%= link_to 'Tracking Orders', admin_tracking_orders_path %></li>
+                            <li><a><%= "Couriers" %><span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <% station.users.select { |user| user.user_role == "courier" }.each_with_index do |courier , admin_key| %>
+                                    <li class="sub_menu">
+                                        <%= link_to courier.name, admin_user_pickup_requests_path(courier) %>
+                                    </li>
+                                <% end %>
+                            </ul>
+                        </li>
+                        </ul>
+                    </li>
+                    </li>
+                <% end %>
+            </ul>
+        </li>
+        <li>
+            <%= link_to 'Upload Awbs Sheet', upload_sheet_admin_awbs_sheets_path %>
+        </li>
+    </ul>
+</div>

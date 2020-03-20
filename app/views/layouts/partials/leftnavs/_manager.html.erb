@@ -1,0 +1,55 @@
+<div class="menu_section">
+    <h3>General</h3>
+
+    <ul class="nav side-menu">
+        <li class="">
+            <a>
+                <i class="fa fa-home"></i> Master Data
+                <span class="fa fa-chevron-down"></span>
+            </a>
+            <ul class="nav child_menu">
+                <li>
+                    <%= link_to 'Pickup Requests', manager_pickup_requests_path %>
+                </li>
+                <li>
+                    <%= link_to 'Tracking Orders', manager_tracking_orders_path %>
+                </li>
+            </ul>
+        </li>
+        
+        <li class="">
+            <a>
+                <i class="fa fa-home"></i> Stations
+                <span class="fa fa-chevron-down"></span>
+            </a>
+            
+            <ul class="nav child_menu">
+                <% @menu_stations.each_with_index do |station , manager_key| %>
+                    <li><%= link_to 'Manifests', manager_station_manifests_path(station) %></li>
+                    <li>
+                        <%= link_to station.name, manager_station_pickup_requests_path(station) %>
+                    <li><a><%= station.name + " Data" %><span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" >
+                            <li class="sub_menu"><%= link_to "Pickups", manager_station_pickup_requests_path(station) %>
+                            </li>
+                            <li class="sub_menu"><%= link_to 'Tracking Orders', manager_tracking_orders_path %></li>
+                            <li><a><%= "Couriers" %><span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <% station.users.select { |user| user.user_role == "courier" }.each_with_index do |courier , key| %>
+                                    <li class="sub_menu">
+                                        <%= link_to courier.name, manager_user_pickup_requests_path(courier) %>
+                                    </li>
+                                <% end %>
+                            </ul>
+                        </li>
+                        </ul>
+                    </li>
+                    </li>
+                <% end %>
+            </ul>
+        </li>
+        <li>
+            <%= link_to 'Upload Awbs Sheet', upload_sheet_manager_awbs_sheets_path %>
+        </li>
+    </ul>
+</div>

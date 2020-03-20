@@ -1,0 +1,40 @@
+<div class="menu_section">
+    <h3>General</h3>
+
+    <ul class="nav side-menu">
+        <li class="">
+            <a>
+                <i class="fa fa-home"></i> Stations
+                <span class="fa fa-chevron-down"></span>
+            </a>
+            
+            <ul class="nav child_menu">
+                <% @menu_stations.each_with_index do |station , key| %>
+                    <li><%= link_to 'Manifests', supervisor_station_manifests_path(station) %></li>
+                    <li>
+                        <%= link_to station.name, supervisor_station_pickup_requests_path(station) %>
+                    <li><a><%= station.name + " Data" %><span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" >
+                            <li class="sub_menu"><%= link_to "Pickups", supervisor_station_pickup_requests_path(station) %>
+                            </li>
+                            <li class="sub_menu"><%= link_to 'Tracking Orders', supervisor_tracking_orders_path %></li>
+                            <li><a><%= "Couriers" %><span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <% station.users.select { |user| user.user_role == "courier" }.each_with_index do |courier , key| %>
+                                    <li class="sub_menu">
+                                        <%= link_to courier.name, supervisor_user_pickup_requests_path(courier) %>
+                                    </li>
+                                <% end %>
+                            </ul>
+                        </li>
+                        </ul>
+                    </li>
+                    </li>
+                <% end %>
+            </ul>
+        </li>
+        <li>
+            <%= link_to 'Upload Awbs Sheet', upload_sheet_supervisor_awbs_sheets_path %>
+        </li>
+    </ul>
+</div>

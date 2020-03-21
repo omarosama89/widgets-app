@@ -5,7 +5,7 @@ module ShowoffApiWrapper
 
   def self.get(path, headers)
     begin
-      res = RestClient.get("#{REMOTE_URL}#{path}", headers)
+      res = RestClient.get("#{REMOTE_URL}#{path}", headers.merge({params: {client_id: CLIENT_ID, client_secret: CLIENT_SECRET}}))
     rescue RestClient::ExceptionWithResponse => e
       res = e.response
     end

@@ -1,0 +1,29 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Description</th>
+    <th scope="col">Kind</th>
+    <th scope="col">User</th>
+    <th scope="col">Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @widgets.each do |widget| %>
+  <tr>
+    <td scope="row"><%= widget['name'] %></td>
+    <th scope="row"><%= widget['description'] %></th>
+    <th scope="row"><%= widget['kind'] %></th>
+    <th scope="row"><%= widget['user']['name'] %></th>
+    <th scope="row">
+      <a href="">
+        <i class="fa fa-edit fa-lg"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-trash fa-lg"></i>
+      </a>
+    </th>
+  </tr>
+  <% end %>
+  </tbody>
+</table>

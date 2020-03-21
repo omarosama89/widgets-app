@@ -6,6 +6,7 @@ class AuthenticationController < ApplicationController
     res = ShowoffApiWrapper.post('/oauth/token', login_params.merge(grant_type: 'password'), {"Content-Type" => 'application/json'})
     if res['code'] == 0
       set_current_user(res['data'])
+
     else
       flash[:danger] = 'failed to login'
       render :new

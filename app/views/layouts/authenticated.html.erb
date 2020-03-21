@@ -12,7 +12,9 @@
 <body class="nav-md footer_fixed">
 
 <div class="row">
-  <div class="col-sm-offset-2 col-md-offset-3 col-sm-8 col-md-9">
+  <%= render partial: 'partials/left_sidebar' %>
+
+  <div class="col-sm-8 col-md-9">
     <div class="container">
       <% flash.each do |key, value| %>
         <div class="alert alert-<%= key %>"><%= value %></div>

@@ -20,4 +20,13 @@ module ShowoffApiWrapper
     end
     JSON.parse(res)
   end
+
+  def self.put(path, payload, headers)
+    begin
+      res = RestClient.put("#{REMOTE_URL}#{path}", payload.to_json, headers)
+    rescue RestClient::ExceptionWithResponse => e
+      res = e.response
+    end
+    JSON.parse(res)
+  end
 end

@@ -1,4 +1,5 @@
 class AuthenticationController < ApplicationController
+  layout "authenticated"
   def new
 
   end

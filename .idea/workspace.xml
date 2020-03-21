@@ -2,8 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463a61ae-5bad-40e8-a66d-0cd15568b58a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/showoff_api_wrapper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/showoff_api_wrapper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/dist/js/pages/dashboard2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/authentication_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authentication_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/authenticated.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/authenticated.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,22 +95,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AdminLTE-2.3.11/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="-45">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showoff_api_wrapper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/showoff_api_wrapper.rb">
+      <file leaf-file-name="authenticated.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/authenticated.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="491" column="22" selection-start-line="491" selection-start-column="22" selection-end-line="491" selection-end-column="22" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#aside#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_left_sidebar.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_all-skins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/_all-skins.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="authentication_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLTE.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLTE.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,7 +198,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
@@ -72,14 +211,15 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/widgets_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/authenticated.html.erb" />
         <option value="$PROJECT_DIR$/app/views/widgets/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/authentication_controller.rb" />
         <option value="$PROJECT_DIR$/app/services/showoff_api_wrapper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/authentication_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/authenticated.html.erb" />
       </list>
     </option>
   </component>
@@ -111,6 +251,51 @@
               <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="widgets-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="widgets-app" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="widgets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;show&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/services/showoff_api_wrapper.rb&#10;users&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/users_controller.rb&#10;applica&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;gemfile&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;index&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/index.html.erb&#10;application&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;routes&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/routes.rb&#10;_form&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_signup_form.html.erb&#10;authenticated&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/layouts/authenticated.html.erb&#10;authe&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;new&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/authentication/new.html.erb&#10;config.yml&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/config.yml&#10;application.js&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/application.js&#10;application.scss&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;request/se&#9;FILE&#9;file:///home/omar/.rbenv/versions/2.2.8/lib/ruby/gems/2.2.0/gems/actionpack-5.2.4.2/lib/action_dispatch/request/session.rb&#10;session.rb&#9;FILE&#9;file:///home/omar/.rbenv/versions/2.2.8/lib/ruby/2.2.0/cgi/session.rb&#10;.gitig&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/.gitignore&#10;application.&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.css&#10;gem&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="dist&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/dist&#10;auth&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;appl&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;widgets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;show&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/services/showoff_api_wrapper.rb&#10;users&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/users_controller.rb&#10;applica&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;gemfile&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;index&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/index.html.erb&#10;application&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;routes&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/routes.rb&#10;_form&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_signup_form.html.erb&#10;authenticated&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/layouts/authenticated.html.erb&#10;authe&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;new&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/authentication/new.html.erb&#10;config.yml&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/config.yml&#10;application.js&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/application.js&#10;application.scss&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;request/se&#9;FILE&#9;file:///home/omar/.rbenv/versions/2.2.8/lib/ruby/gems/2.2.0/gems/actionpack-5.2.4.2/lib/action_dispatch/request/session.rb&#10;session.rb&#9;FILE&#9;file:///home/omar/.rbenv/versions/2.2.8/lib/ruby/2.2.0/cgi/session.rb&#10;.gitig&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/.gitignore&#10;application.&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.css&#10;gem&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../booster-frontend-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -172,6 +357,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/dist/css" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
@@ -304,7 +492,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23455000" />
+    <option name="totallyTimeSpent" value="28185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -350,52 +538,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.8/lib/ruby/gems/2.2.0/gems/actionpack-5.2.4.2/lib/action_dispatch/request/session.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -519,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -588,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/widgets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -616,10 +750,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/showoff_api_wrapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/widgets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="138" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AdminLTE-2.3.11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/dist/css/skins/_all-skins.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -630,31 +830,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/authenticated.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/showoff_api_wrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="510">
+          <caret line="491" column="22" selection-start-line="491" selection-start-column="22" selection-end-line="491" selection-end-column="22" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

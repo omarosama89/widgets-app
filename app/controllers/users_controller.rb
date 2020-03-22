@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  def new
+
+  end
   def create
     res = ShowoffApiWrapper.post('/api/v1/users', {user: user_params}, "Content-Type" => 'application/json')
     if res['code'] == 0

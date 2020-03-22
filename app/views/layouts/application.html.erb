@@ -6,24 +6,33 @@
   <%= csp_meta_tag %>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
 
-<body class="nav-md footer_fixed">
-
-<div class="row">
-  <div class="col-sm-offset-2 col-md-offset-3 col-sm-8 col-md-9">
-    <div class="container">
+  <%= render partial: 'partials/header' %>
+  <%= render partial: 'partials/left_sidebar' %>
+  <div class="content-wrapper">
+    <section class="content">
       <% flash.each do |key, value| %>
         <div class="alert alert-<%= key %>"><%= value %></div>
       <% end %>
-    </div>
-    <!--Body content-->
-    <%= yield %>
+      <%= yield %>
+    </section>
   </div>
+  <%= render partial: 'partials/footer' %>
 </div>
 
+<!-- jQuery 2.2.3 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
 
-<!-- <%= javascript_include_tag 'application' %> -->
+<%= javascript_include_tag 'application' %>
 </body>
+
 </html>

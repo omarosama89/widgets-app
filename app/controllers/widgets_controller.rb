@@ -1,7 +1,7 @@
 class WidgetsController < ApplicationController
   layout "authenticated"
   def index
-    res = ShowoffApiWrapper.get('/api/v1/widgets/visible', {'Authorization' => "Bearer #{session[:current_user]['token']['access_token']}"})
+    res = ShowoffApiWrapper.get('/api/v1/widgets/visible', {})
     if res['code'] == 0
       @widgets = res['data']['widgets']
     else

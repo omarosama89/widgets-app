@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'authentication#new'
+  root 'widgets#index'
   resources :authentication, only: [:new, :create]
   resources :users, only: [:new, :create]
   resources :widgets, only: [:index]

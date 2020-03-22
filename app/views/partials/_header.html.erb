@@ -15,12 +15,12 @@
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav">
         <% if session[:current_user].nil? %>
-        <li><%= link_to revoke_authentication_index_path, method: :post do %>
-            <i class="fa fa-wpforms fa-lg"></i> Sign Up
-          <% end %></li>
-        <li><%= link_to revoke_authentication_index_path, method: :post do %>
-            <i class="fa fa-sign-in fa-lg"></i> Log In
-          <% end %></li>
+          <li><%= link_to nil, {:remote => true, 'data-toggle' => 'modal', 'data-target' => '#signup-modal'} do %>
+              <i class="fa fa-wpforms fa-lg"></i> Sign Up
+            <% end %></li>
+          <li><%= link_to nil, {:remote => true, 'data-toggle' => 'modal', 'data-target' => '#login-modal'} do %>
+              <i class="fa fa-sign-in fa-lg"></i> Log In
+            <% end %></li>
         <% end %>
         <% if session[:current_user] %>
           <li class="dropdown user user-menu">
@@ -50,9 +50,9 @@
         <% end %>
         <% if session[:current_user] %>
           <li>
-          <%= link_to revoke_authentication_index_path, method: :post do %>
-            <i class="fa fa-sign-out fa-lg"></i>
-          <% end %>
+            <%= link_to revoke_authentication_index_path, method: :post do %>
+              <i class="fa fa-sign-out fa-lg"></i>
+            <% end %>
           </li>
         <% end %>
       </ul>

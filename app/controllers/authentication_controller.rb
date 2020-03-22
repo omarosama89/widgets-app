@@ -2,6 +2,7 @@ class AuthenticationController < ApplicationController
   def new
 
   end
+
   def create
     res = ShowoffApiWrapper.post('/oauth/token', login_params.merge(grant_type: 'password'), {"Content-Type" => 'application/json'})
     if res['code'] == 0

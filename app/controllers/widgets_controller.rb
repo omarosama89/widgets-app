@@ -1,5 +1,4 @@
 class WidgetsController < ApplicationController
-  layout "authenticated"
   def index
     res = ShowoffApiWrapper.get('/api/v1/widgets/visible', {})
     if res['code'] == 0

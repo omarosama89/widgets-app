@@ -14,5 +14,6 @@
 
 //= require bootstrap
 //= require app
+//= require jquery_ujs
 
 //= require_tree .

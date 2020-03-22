@@ -3,9 +3,9 @@ module ShowoffApiWrapper
   CLIENT_ID = APP_CONFIG['client_id']
   CLIENT_SECRET = APP_CONFIG['client_secret']
 
-  def self.get(path, headers)
+  def self.get(path, headers, params={})
     begin
-      res = RestClient.get("#{REMOTE_URL}#{path}", headers.merge({params: {client_id: CLIENT_ID, client_secret: CLIENT_SECRET}}))
+      res = RestClient.get("#{REMOTE_URL}#{path}", headers.merge({params: {client_id: CLIENT_ID, client_secret: CLIENT_SECRET}.merge(params.to_hash)}))
     rescue RestClient::ExceptionWithResponse => e
       res = e.response
     end

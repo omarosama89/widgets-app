@@ -10,7 +10,7 @@
     </div>
     <div class="form-group">
       <%= f.label :email %>
-      <%= f.text_field :email, class: 'form-control' %>
+      <%= f.text_field :email, class: 'form-control', id: 'email-field'%>
     </div>
     <div class="form-group">
       <%= f.label :password %>
@@ -21,7 +21,7 @@
       <%= f.text_field :image_url, class: 'form-control' %>
     </div>
     <div class="form-group">
-      <%= f.submit "Sign Up", class: 'btn btn-primary' %>
+      <%= f.submit "Sign Up", class: 'btn btn-primary', id: 'signup-button', disabled: 'disabled' %>
     </div>
   <% end %>
 </div>

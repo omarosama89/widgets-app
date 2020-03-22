@@ -13,5 +13,12 @@ Rails.application.routes.draw do
     end
   end
   resources :widgets, only: [:index]
+  namespace :api do
+    resources :users, only: [] do
+      collection do
+        get :check_email
+      end
+    end
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

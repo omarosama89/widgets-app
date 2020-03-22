@@ -18,4 +18,16 @@
 //= require jquery_ujs
 //= require_tree .
 
-
+$('#email-field').focusout(function(){
+    $.get('/api/users/check_email', {user: {email: $('#email-field').val()}}, function(data, status){
+        $('#check-email-status').empty();
+        if(data.data.available){
+            $('#check-email-status').append('<div class="alert alert-success">Email is available</div>');
+            $('#signup-button').removeAttr('disabled')
+        }
+        else{
+            $('#check-email-status').append('<div class="alert alert-danger">Email is not available</div>');
+            $('#signup-button').attr('disabled', 'disabled')
+        }
+    })
+})

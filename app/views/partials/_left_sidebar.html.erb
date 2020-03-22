@@ -57,7 +57,7 @@
         <ul class="treeview-menu">
           <li>
             <% if session[:current_user] %>
-              <%= link_to authentication_index_path do %>
+              <%= link_to new_change_password_users_path do %>
                 <i class="fa fa-exchange"></i> Change Password
               <% end %>
             <% else %>

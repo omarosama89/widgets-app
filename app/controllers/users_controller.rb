@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    res = ShowoffApiWrapper.put('/api/v1/users/me', {user: user_update_params}, {"Content-Type" => 'application/json', 'Authorization' => "Bearer #{session[:current_user]['token']['access_token']}"})
+    res = ShowoffApiWrapper.put('/api/v1/users/me', {user: user_update_params}, {"Content-Type" => 'application/json', 'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
     if res['code'] == 0
       flash[:success] = 'User updated successfully'
     else

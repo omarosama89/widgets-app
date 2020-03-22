@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :authentication, only: [:new, :create] do
     collection do
       post :revoke
+      post :refresh
     end
   end
   resources :users, only: [:new, :create]

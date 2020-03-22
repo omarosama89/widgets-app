@@ -37,7 +37,7 @@
         <ul class="treeview-menu">
           <li>
             <% if session[:current_user] %>
-              <%= link_to authentication_index_path do %>
+              <%= link_to refresh_authentication_index_path, method: :post do %>
                 <i class="fa fa-refresh"></i> Refresh Token
               <% end %>
             <% else %>

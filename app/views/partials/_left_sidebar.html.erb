@@ -65,20 +65,6 @@
             <% end %>
           </li>
           <li>
-            <%= link_to authentication_index_path do %>
-              <i class="fa fa-check-square-o"></i> Check Email
-            <% end %>
-          </li>
-          <li>
-            <% if session[:current_user] %>
-              <%= link_to authentication_index_path do %>
-                <i class="fa fa-refresh"></i> Reset Password
-              <% end %>
-            <% else %>
-              &emsp;<b><i class="fa fa-refresh"></i> Reset Password</b>
-            <% end %>
-          </li>
-          <li>
             <% if session[:current_user] %>
               <%= link_to authentication_index_path do %>
                 <i class="fa fa-th"></i> Widgets

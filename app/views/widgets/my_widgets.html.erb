@@ -1,1 +1,12 @@
-<%= render partial: 'table' %>
+<div class="box">
+  <div class="box-body">
+    <%= link_to "New Widget", new_widget_path, class: 'btn btn-primary' %>
+    <hr>
+    <%= render partial: 'table' %>
+  </div>
+</div>
+
+<%= render partial: 'modals/create_widget' %>
+
+
+

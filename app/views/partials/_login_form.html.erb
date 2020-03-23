@@ -2,7 +2,7 @@
   <%= form_for :user, url: authentication_index_path do |f| %>
     <div class="form-group">
       <%= f.label :username %>
-      <%= f.text_field :username, class: 'form-control' %>
+      <%= f.text_field :username, class: 'form-control', value: '' %>
     </div>
     <div class="form-group">
       <%= f.label :password %>

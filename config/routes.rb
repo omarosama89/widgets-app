@@ -13,7 +13,7 @@ Rails.application.routes.draw do
       post :reset_password
     end
   end
-  resources :widgets, only: [:index] do
+  resources :widgets, only: [:new, :index, :create] do
     collection do
       get :my_widgets
     end

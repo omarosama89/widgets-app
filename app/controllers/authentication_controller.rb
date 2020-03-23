@@ -7,7 +7,8 @@ class AuthenticationController < ApplicationController
     res = ShowoffApiWrapper.post('/oauth/token', login_params.merge(grant_type: 'password'), {"Content-Type" => 'application/json'})
     if res['code'] == 0
       set_current_user(res['data'])
-
+      flash[:success] = 'Welcome back.'
+      redirect_to my_widgets_widgets_path, status: 301
     else
       flash[:danger] = 'failed to login'
       render :new
@@ -16,9 +17,10 @@ class AuthenticationController < ApplicationController
 
   def refresh
     res = ShowoffApiWrapper.post('/oauth/token', {grant_type: 'refresh_token', refresh_token: session[:current_user]['token']['refresh_token']}, {"Content-Type" => 'application/json', 'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
-    debugger
     if res['code'] == 0
       set_current_user(res['data'])
+      flash[:success] = 'Toekn is successfully refreshed'
+      redirect_to my_widgets_widgets_path, status: 301
     else
       flash[:danger] = 'failed to refresh token'
       render :new

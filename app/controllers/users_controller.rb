@@ -1,14 +1,13 @@
 class UsersController < ApplicationController
-  
+
   def create
     res = ShowoffApiWrapper.post('/api/v1/users', {user: user_params}, "Content-Type" => 'application/json')
     if res['code'] == 0
       flash[:success] = 'User created successfully, you can now login.'
-      redirect_to widgets_path, status: 301
     else
       flash[:danger] = res['message']
-      redirect_to widgets_path, status: 301
     end
+    redirect_to widgets_path, status: 301
   end
 
   def update

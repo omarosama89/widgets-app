@@ -32,6 +32,16 @@ class UsersController < ApplicationController
     end
   end
 
+  def reset_password
+    res = ShowoffApiWrapper.post('/api/v1/users/reset_password', {user: reset_password_params}, {"Content-Type" => 'application/json'})
+    if res['code'] == 0
+      flash[:success] = res['message']
+    else
+      flash[:danger] = res['message']
+    end
+    redirect_to widgets_path, status: 301
+  end
+
   private
   def user_params
     params.require(:user).permit(:first_name, :last_name, :password, :email, :image_url)
@@ -43,5 +53,9 @@ class UsersController < ApplicationController
 
   def change_password_params
     params.require(:user).permit(:current_password, :new_password)
+  end
+
+  def reset_password_params
+    params.require(:user).permit(:email)
   end
 end

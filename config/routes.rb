@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     collection do
       get :new_change_password
       post :change_password
+      post :reset_password
     end
   end
   resources :widgets, only: [:index]

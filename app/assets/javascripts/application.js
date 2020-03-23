@@ -30,4 +30,18 @@ $('#email-field').focusout(function(){
             $('#signup-button').attr('disabled', 'disabled')
         }
     })
-})
+});
+
+$('#reset-password-email-field').focusout(function(){
+    $.get('/api/users/check_email', {user: {email: $('#reset-password-email-field').val()}}, function(data, status){
+        $('#reset-password-email-status').empty();
+        if(data.data.available){
+            $('#reset-password-email-status').append('<div class="alert alert-danger">Email is not valid</div>');
+            $('#reset-password-button').attr('disabled', 'disabled')
+        }
+        else{
+            $('#reset-password-email-status').append('<div class="alert alert-success">Email is valid</div>');
+            $('#reset-password-button').removeAttr('disabled')
+        }
+    })
+});

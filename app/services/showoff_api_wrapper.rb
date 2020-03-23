@@ -29,4 +29,13 @@ module ShowoffApiWrapper
     end
     JSON.parse(res)
   end
+
+  def self.delete(path, headers)
+    begin
+      res = RestClient.delete("#{REMOTE_URL}#{path}", headers)
+    rescue RestClient::ExceptionWithResponse => e
+      res = e.response
+    end
+    JSON.parse(res)
+  end
 end

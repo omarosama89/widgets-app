@@ -5,6 +5,7 @@
     <th scope="col">Description</th>
     <th scope="col">Kind</th>
     <th scope="col">User</th>
+    <th scope="col">Actions</th>
   </tr>
   </thead>
   <tbody>
@@ -13,9 +14,13 @@
       <td scope="row"><%= widget['name'] %></td>
       <td scope="row"><%= widget['description'] %></td>
       <td scope="row"><%= widget['kind'] %></td>
+      <td scope="row"><%= widget['user']['name'] %></td>
       <td scope="row">
-        <%= link_to user_path(widget['user']['id']) do %>
-          <%= widget['user']['name'] %>
+        <%= link_to edit_widgets_path(widget.slice('id', 'name', 'description'))  do %>
+          <i class="fa fa-edit fa-lg"></i>
+        <% end %>
+        <%= link_to widget_path(widget['id']), method: :delete, data: {:confirm => 'Confirm Deletion?'} do %>
+          <i class="fa fa-trash fa-lg"></i>
         <% end %>
       </td>
     </tr>

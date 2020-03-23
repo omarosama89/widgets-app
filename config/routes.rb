@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       post :refresh
     end
   end
-  resources :users, only: [:new, :create] do
+  resources :users, only: [:new, :create, :show] do
     collection do
       get :new_change_password
       post :change_password
@@ -17,6 +17,7 @@ Rails.application.routes.draw do
     collection do
       get :my_widgets
       get :edit
+      get :user_index
     end
   end
   namespace :api do

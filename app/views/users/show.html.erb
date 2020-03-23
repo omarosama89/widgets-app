@@ -1,0 +1,24 @@
+<div class="box box-widget widget-user-2">
+  <!-- Add the bg color to the header using any of the bg-* classes -->
+  <div class="widget-user-header">
+    <div class="widget-user-image">
+      <img class="img-circle" src="<%= @user_data['images']['medium_url'] %>" alt="User Avatar">
+    </div>
+    <!-- /.widget-user-image -->
+    <h3 class="widget-user-username"><%= @user_data['name'] %></h3>
+    <h5>
+      <%= link_to user_index_widgets_path(user_id: @user_data['id']) do %>
+        List User's Widgets
+      <% end %>
+    </h5>
+  </div>
+  <div class="box-footer no-padding">
+    <ul class="nav nav-stacked">
+      <li><a href="#">First Name : <span><%= @user_data['first_name'] %></span></a></li>
+      <li><a href="#">Last Name : <span><%= @user_data['last_name'] %></span></a></li>
+      <li>
+
+      </li>
+    </ul>
+  </div>
+</div>

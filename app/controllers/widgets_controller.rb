@@ -8,6 +8,15 @@ class WidgetsController < ApplicationController
     end
   end
 
+  def user_index
+    res = ShowoffApiWrapper.get("/api/v1/users/#{index_uer_widgets_params[:user_id]}/widgets", {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
+    if res['code'] == 0
+      @widgets = res['data']['widgets']
+    else
+      alert[:danger] = 'error happend when retrieving widgets, try again'
+    end
+  end
+
   def my_widgets
     res = ShowoffApiWrapper.get('/api/v1/users/me/widgets', {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
     if res['code'] == 0
@@ -67,5 +76,9 @@ class WidgetsController < ApplicationController
 
   def delete_widget_params
     params.permit(:id)
+  end
+
+  def index_uer_widgets_params
+    params.permit(:user_id)
   end
 end

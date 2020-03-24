@@ -78,6 +78,11 @@ $(document).ready(function() {
         })
     });
 
+    $(".search-input").keyup(function(event) {
+        if (event.keyCode === 13) {
+            $(".search-button").click();
+        }
+    });
 });
 
 

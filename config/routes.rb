@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       post :refresh
     end
   end
-  resources :users, only: [:new, :create, :show] do
+  resources :users, only: [:create, :show] do
     collection do
       get :new_change_password
       post :change_password

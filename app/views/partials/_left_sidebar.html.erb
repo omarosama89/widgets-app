@@ -46,6 +46,15 @@
         <ul class="treeview-menu">
           <li>
             <% if session[:current_user] %>
+              <%= link_to edit_users_path do %>
+                <i class="fa fa-address-book"></i> Update My Info
+              <% end %>
+            <% else %>
+              &emsp;<b><i class="fa fa-address-book"></i> Update My Info</b>
+            <% end %>
+          </li>
+          <li>
+            <% if session[:current_user] %>
               <%= link_to new_change_password_users_path do %>
                 <i class="fa fa-exchange"></i> Change Password
               <% end %>

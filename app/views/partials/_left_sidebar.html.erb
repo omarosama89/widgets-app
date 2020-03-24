@@ -53,15 +53,6 @@
               &emsp;<b><i class="fa fa-exchange"></i> Change Password</b>
             <% end %>
           </li>
-          <li>
-            <% if session[:current_user] %>
-              <%= link_to my_widgets_widgets_path do %>
-                <i class="fa fa-th"></i> Widgets
-              <% end %>
-            <% else %>
-              &emsp;<b><i class="fa fa-th"></i> My Widgets</b>
-            <% end %>
-          </li>
         </ul>
       </li>
 
@@ -76,10 +67,27 @@
 
           <li>
             <%= link_to widgets_path do %>
-              <i class="fa fa-eye"></i> Visible
+              <i class="fa fa-eye"></i> Visible Widgets
             <% end %>
           </li>
-          <li><a href="pages/UI/icons.html"><i class="fa fa-list"></i> Index</a></li>
+          <li>
+            <% if session[:current_user] %>
+              <%= link_to my_widgets_widgets_path do %>
+                <i class="fa fa-th"></i> My Widgets
+              <% end %>
+            <% else %>
+              &emsp;<b><i class="fa fa-th"></i> My Widgets</b>
+            <% end %>
+          </li>
+          <li>
+            <% if session[:current_user] %>
+              <%= link_to list_widgets_widgets_path do %>
+                <i class="fa fa-list"></i> List Widgets
+              <% end %>
+            <% else %>
+              &emsp;<b><i class="fa fa-list"></i> My Widgets</b>
+            <% end %>
+          </li>
         </ul>
       </li>
     </ul>

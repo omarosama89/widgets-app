@@ -18,6 +18,7 @@ Rails.application.routes.draw do
       get :my_widgets
       get :edit
       get :user_index
+      get :list_widgets
     end
   end
   namespace :api do

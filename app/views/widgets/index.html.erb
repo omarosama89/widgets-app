@@ -1,11 +1,11 @@
 <div class="box">
   <div class="box-body">
     <div class="input-group">
-      <input type="text" id="widgets-search-field" class="form-control search-input" placeholder="Search...">
       <span class="input-group-btn">
-                    <button type="button" name="search" id="widgets-search-btn" class="btn btn-flat search-button"><i class="fa fa-search"></i>
-                    </button>
-                  </span>
+                            <button type="button" name="search" id="widgets-search-btn" class="btn btn-flat search-button"><i class="fa fa-search" id="search-icon"></i>
+                            </button>
+                          </span>
+      <input type="text" id="widgets-search-field" class="form-control search-input" placeholder="Search...">
     </div>
     <hr>
     <%= render partial: 'table' %>

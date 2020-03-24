@@ -9,7 +9,7 @@ class WidgetsController < ApplicationController
   end
 
   def user_index
-    res = ShowoffApiWrapper.get("/api/v1/users/#{index_uer_widgets_params[:user_id]}/widgets", {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
+    res = ShowoffApiWrapper.get("/api/v1/users/#{index_user_widgets_params[:user_id]}/widgets", {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
     if res['code'] == 0
       @widgets = res['data']['widgets']
     else
@@ -19,6 +19,15 @@ class WidgetsController < ApplicationController
 
   def my_widgets
     res = ShowoffApiWrapper.get('/api/v1/users/me/widgets', {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
+    if res['code'] == 0
+      @widgets = res['data']['widgets']
+    else
+      alert[:danger] = 'error happend when retrieving widgets, try again'
+    end
+  end
+
+  def list_widgets
+    res = ShowoffApiWrapper.get('/api/v1/widgets', {'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
     if res['code'] == 0
       @widgets = res['data']['widgets']
     else
@@ -55,7 +64,6 @@ class WidgetsController < ApplicationController
 
   def destroy
     res = ShowoffApiWrapper.delete("/api/v1/widgets/#{delete_widget_params[:id]}", {'Content-Type' => 'application/json', 'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
-    debugger
     if res['code'] == 0
       flash[:success] = 'Widget successfully deleted.'
     else
@@ -78,7 +86,7 @@ class WidgetsController < ApplicationController
     params.permit(:id)
   end
 
-  def index_uer_widgets_params
+  def index_user_widgets_params
     params.permit(:user_id)
   end
 end

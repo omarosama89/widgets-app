@@ -1,4 +1,6 @@
 class WidgetsController < ApplicationController
+  before_action :authenticate_user!, except: [:index]
+
   def index
     res = ShowoffApiWrapper.get('/api/v1/widgets/visible', {})
     if res['code'] == 0
@@ -55,7 +57,6 @@ class WidgetsController < ApplicationController
 
   def destroy
     res = ShowoffApiWrapper.delete("/api/v1/widgets/#{delete_widget_params[:id]}", {'Content-Type' => 'application/json', 'Authorization' => "#{session[:current_user]['token']['token_type']} #{session[:current_user]['token']['access_token']}"})
-    debugger
     if res['code'] == 0
       flash[:success] = 'Widget successfully deleted.'
     else

@@ -11,6 +11,8 @@ Rails.application.routes.draw do
       get :new_change_password
       post :change_password
       post :reset_password
+      get :edit
+      put :update
     end
   end
   resources :widgets, only: [:new, :index, :create, :update, :destroy] do

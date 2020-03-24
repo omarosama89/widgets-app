@@ -39,10 +39,14 @@
               </li>
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <%= link_to user_path(session[:current_user]['user']['id']) do %>
+                    <button class="btn btn-default btn-flat">Profile</button>
+                  <% end %>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <%= link_to revoke_authentication_index_path, method: :delete do %>
+                    <button class="btn btn-default btn-flat">Sign out</button>
+                  <% end %>
                 </div>
               </li>
             </ul>
@@ -50,7 +54,7 @@
         <% end %>
         <% if session[:current_user] %>
           <li>
-            <%= link_to revoke_authentication_index_path, method: :post do %>
+            <%= link_to revoke_authentication_index_path, method: :delete do %>
               <i class="fa fa-sign-out fa-lg"></i>
             <% end %>
           </li>

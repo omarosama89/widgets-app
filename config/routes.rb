@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'widgets#index'
   resources :authentication, only: [:new, :create] do
     collection do
-      post :revoke
+      delete :revoke
       post :refresh
     end
   end

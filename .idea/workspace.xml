@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463a61ae-5bad-40e8-a66d-0cd15568b58a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/widgets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/widgets_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/widgets/_table.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/widgets/_table.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/widgets/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/widgets/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/widgets/user_index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/widgets/user_index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/_header.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/widgets/index.html.erb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_table.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/widgets/_table.html.erb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="15">
+              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -50,66 +43,35 @@
       <file leaf-file-name="widgets_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/widgets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="885">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_widgets.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/widgets/list_widgets.html.erb">
+      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-end-line="10" />
+            <state relative-caret-position="647">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="widgets_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/widgets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_left_sidebar.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-              <folding>
-                <element signature="e#2799#2805#0#HTML" expanded="true" />
-                <element signature="e#3087#3093#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/widgets/user_index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchable-widgets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -127,7 +89,6 @@
       <find>Bearer</find>
       <find>email-field</find>
       <find>ShowoffApiWrapper.get</find>
-      <find>widgets_path</find>
     </findStrings>
     <replaceStrings>
       <replace>#{session[:current_user]['token']['token_type']}</replace>
@@ -150,10 +111,8 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/partials/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/authenticated.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/partials/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/modals/_login.html.erb" />
         <option value="$PROJECT_DIR$/app/views/partials/_login_signup_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new_change_password.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/api/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/modals/_signup.erb" />
@@ -170,25 +129,25 @@
         <option value="$PROJECT_DIR$/app/views/widgets/_widget_update_form.html.erb" />
         <option value="$PROJECT_DIR$/app/services/showoff_api_wrapper.rb" />
         <option value="$PROJECT_DIR$/app/views/widgets/my_widgets.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application_back.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application_back.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/back/select2/select2.scss" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/widgets_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js" />
         <option value="$PROJECT_DIR$/app/views/widgets/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/widgets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/widgets/_table.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/widgets_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/widgets/list_widgets.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/widgets/user_index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/partials/_header.html.erb" />
       </list>
     </option>
   </component>
@@ -197,9 +156,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-2" />
@@ -358,7 +314,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="user_index&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/user_index.html.erb&#10;left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;lft&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/tmp/cache/assets/sprockets/v3.0/LF/LFjeHi0UQgwTL7eHAFv04ImPAtytvMbmEr6vFUsOTa4.cache&#10;routes&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/routes.rb&#10;_table&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table.html.erb&#10;widget&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;widgets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/searchable-widgets.js&#10;applica&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/application.js&#10;index&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/index.html.erb&#10;database.yml&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/database.yml&#10;gemfile&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;development&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/environments/development.rb&#10;production&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/environments/production.rb&#10;envi&#9;null&#9;null&#10;table&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table.html.erb&#10;assets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/initializers/assets.rb&#10;my_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/my_widgets.html.erb&#10;_left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;application_ba&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application_back.scss&#10;application_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/application_back.js&#10;config/in&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/initializers&#10;users&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/users_controller.rb&#10;_table_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table_with_actions.html.erb&#10;show&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/services/showoff_api_wrapper.rb&#10;update&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_widget_update_form.html.erb&#10;edit&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/edit.html.erb&#10;header&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_header.html.erb&#10;authe&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;_login&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_form.html.erb&#10;signup&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_signup_form.html.erb&#10;my&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/my_widgets.html.erb&#10;users_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/users_controller.rb&#10;login&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_form.html.erb&#10;.git&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/.gitignore&#10;sign&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_signup_form.html.erb&#10;_sign&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals/_signup.erb&#10;appli&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/application_controller.rb&#10;modals&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals&#10;authen&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;gemfi&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;modal&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals&#10;gem&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;widge&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;widgets_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;authentication&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;dist&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/dist&#10;auth&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;appl&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;application&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;_form&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_signup_form.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="table&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table.html.erb&#10;routes&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/routes.rb&#10;header&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_header.html.erb&#10;users&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/api/users_controller.rb&#10;widgets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/api/widgets_controller.rb&#10;applica&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/application_controller.rb&#10;database.yml&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/database.yml&#10;gemfile&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;development&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/environments/development.rb&#10;production&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/environments/production.rb&#10;envi&#9;null&#9;null&#10;assets&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/initializers/assets.rb&#10;my_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/my_widgets.html.erb&#10;index&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/index.html.erb&#10;_left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;application_ba&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application_back.scss&#10;application_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/javascripts/application_back.js&#10;config/in&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/initializers&#10;left&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_left_sidebar.html.erb&#10;_table_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table_with_actions.html.erb&#10;_table&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_table.html.erb&#10;show&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/services/showoff_api_wrapper.rb&#10;update&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/_widget_update_form.html.erb&#10;edit&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/edit.html.erb&#10;authe&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;_login&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_form.html.erb&#10;signup&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_signup_form.html.erb&#10;my&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/widgets/my_widgets.html.erb&#10;users_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/users_controller.rb&#10;login&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_form.html.erb&#10;.git&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/.gitignore&#10;sign&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_signup_form.html.erb&#10;_sign&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals/_signup.erb&#10;appli&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/application_controller.rb&#10;modals&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals&#10;authen&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;gemfi&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;modal&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/modals&#10;gem&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/Gemfile&#10;widge&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;widgets_&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/widgets_controller.rb&#10;authentication&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;dist&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/dist&#10;auth&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/controllers/authentication_controller.rb&#10;appl&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;application&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/assets/stylesheets/application.scss&#10;_form&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/partials/_login_signup_form.html.erb&#10;authenticated&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/layouts/authenticated.html.erb&#10;new&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/app/views/authentication/new.html.erb&#10;config.yml&#9;FILE&#9;file:///home/omar/workprojects/widgets-app/config/config.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../booster-frontend-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -498,12 +454,11 @@
       <workItem from="1584657966199" duration="1686000" />
       <workItem from="1584660021225" duration="5000" />
       <workItem from="1584660347734" duration="507000" />
-      <workItem from="1585016723739" duration="3375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80142000" />
+    <option name="totallyTimeSpent" value="77295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -523,12 +478,25 @@
       <window_info id="Favorites" order="2" sideWeight="0.504644" side_tool="true" visible="true" weight="0.24986508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49638802" visible="true" weight="0.24986508" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32920536" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920536" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" sideWeight="0.503612" side_tool="true" visible="true" weight="0.24986508" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +511,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/widgets/user_index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="e#2287#2293#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_leftnav.html.erb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
     <entry file="file://$PROJECT_DIR$/config/initializers/load_config.rb">
@@ -594,20 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="149" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -681,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="17" selection-start-column="10" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/widgets/_widget_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -716,6 +687,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -727,13 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="17" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -779,6 +750,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding>
+            <element signature="e#2287#2293#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -786,38 +767,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/widgets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js">
+    <entry file="file://$PROJECT_DIR$/app/views/widgets/_table.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -828,49 +795,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/widgets/_table.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searchable-widgets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/widgets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/widgets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/widgets/list_widgets.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/widgets/user_index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/_left_sidebar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-          <folding>
-            <element signature="e#2799#2805#0#HTML" expanded="true" />
-            <element signature="e#3087#3093#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="647">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
